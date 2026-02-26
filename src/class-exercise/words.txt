@@ -1,0 +1,321 @@
+We all know it: having large text data is important for training NLP or LLM models. In addition, text classification plays an essential role in the development of applications for natural language processing (NLP), allowing AI models to automatically categorize textual information.
+
+‍
+
+In this context, the text classification datasets are essential resources for the training and evaluation of machine learning models. Whether for tasks of classification of feelings, categorizing subjects or detecting spam, the quality and diversity of datasets directly influence the performance and reliability of the models.
+
+‍
+
+‍
+
+💡 This article offers a selection of 15 known and recognized datasets, used and tested in the scientific and industrial community, ensuring solid foundations for the learning and evaluation of text classification systems. And if you don't find what you're looking for... you can contact us, we would be delighted to create a tailor-made dataset to help you reach your goals!
+‍
+
+‍
+
+‍
+
+📚 Introduction to text classification
+‍
+
+Text classification is a fundamental task in the field of natural language processing (or NLP) and machine learning. It consists of assign one or more labels or categories to a text depending on its content, style or context. This task is essential in many areas such as finding information, classifying feelings, detecting spam, recommending content, etc.
+
+‍
+
+Text classification can be achieved using various algorithms and models, such as neural networks, decision trees, random forests, support vector machines (SVMs), etc. Each model has its own strengths and weaknesses, and choosing the appropriate model depends on the type of data, the complexity of the task, and the resources available.
+
+‍
+
+‍
+
+Why are datasets essential for text classification?
+‍
+
+Datasets are essential for text classification because they provide machine learning models with structured examples that allow them to learn to recognize and differentiate text categories. In natural language processing, a model must analyze large amounts of data to understand the linguistic and contextual nuances specific to each category.
+
+‍
+
+Concretely, for example, you can use CSV files to structure data sets for machine learning by specifying the columns needed and the expected formats for entering data into various models, in particular for classification blocks.
+
+‍
+
+Without a well-constructed dataset that covers a wide range of cases and language variations, the model may be inaccurate, generalized, or irrelevant. In addition, datasets allow the performance of a model to be tested and validated before it is used in real environments, ensuring that the model can handle new data reliably.
+
+‍
+
+They therefore contribute not only to the learning phase, but also to the assessment phase, making it possible to continuously optimize text classification models for specific tasks, such as sentiment analysis, spam detection or document categorization.
+
+‍
+
+‍
+
+What are the characteristics for a reliable NLP dataset?
+‍
+
+A reliable dataset for natural language processing (NLP) has several key characteristics that ensure its quality and usefulness for training and evaluating machine learning models.
+
+‍
+
+Sufficient size
+A large dataset, including a variety of cases, allows the model to learn various linguistic nuances. This reduces the risk of over-apprenticeship (or overfitting) on specific examples and improves the generalization capacity of the model.
+
+‍
+
+Linguistic and contextual variety
+A good dataset contains samples from a variety of contexts and language styles, including formal, informal, and various dialects and specific jargons. This variety allows the model to better adapt to differences in natural language.
+
+‍
+
+Precise and consistent labelling
+Data should be labelled consistently and accurately, without errors or ambiguities. Reliable labeling allows the model to properly learn to classify texts into well-defined categories, whether they are feelings, themes, or other types of classification.
+
+‍
+
+Representativeness of data
+A reliable dataset should represent the real use cases for which the model will be used. For example, for a classification of feelings in social networks, it is essential that the dataset contains a sample of texts from similar platforms.
+
+‍
+
+Class balance
+In a classification dataset, each class (or category) must be sufficiently represented to avoid bias. A well-balanced dataset ensures that the model is not over-trained to detect more present categories at the expense of less frequent ones.
+
+‍
+
+Timeliness and relevance
+As language evolves rapidly, a reliable dataset needs to be updated regularly to reflect changes in vocabulary, syntax, and linguistic trends.
+
+‍
+
+These characteristics ensure that the dataset is suitable for automatic natural language processing, allowing machine learning models to achieve optimal performance while remaining robust in the face of varied and new data.
+
+‍
+
+‍
+
+What are the 15 best datasets for text classification?
+‍
+
+Each dataset has specificities adapted to specific objectives, whether it is sentiment Analysis, moderation, spam detection, or theme categorization.
+
+‍
+
+Here is our selection of 15 datasets that are commonly used for text classification, covering various use cases and classification types, and widely recognized for their reliability in natural language processing.
+
+‍
+
+1. IMDB Reviews
+This dataset includes movie reviews that are labeled as positive or negative. Its advantage lies in its size and popularity, making it a standard for classifying feelings. Its specificity is that it offers texts rich in opinions, ideal for models who need to understand the nuances of language in the opinions of users.
+
+‍
+
+🔗 Link: Kaggle IMDB
+‍
+
+2. Amazon Reviews
+Containing product reviews with levels of satisfaction, this dataset is particularly useful for detecting multiple opinions and customer satisfaction. It is extensive, well-structured, and includes metadata (product, rating, etc.), which allows for in-depth analyses of buying behavior and user feedback.
+
+‍
+
+🔗 Link: Kaggle Amazon Reviews
+‍
+
+‍
+
+3. Yelp Reviews
+With customer reviews of businesses, labeled from one to five stars, this dataset offers fine granularity for the classification of feelings. Its particularity is to contain useful information in the context of restaurants, hotels, and local services, an asset for models aimed at these sectors.
+
+‍
+
+🔗 Link: Yelp Reviews
+‍
+
+4. AG News
+This dataset is commonly used for the classification of topics in news articles. It is structured into four categories (science, sports, business, technology), offering an excellent basis for NLP models focused on thematic classification or news analysis.
+
+‍
+
+🔗 Link: AG News
+‍
+
+5. 20 Newsgroups
+A dataset made up of articles from 20 different discussion groups. Its main advantage lies in thematic diversity, as it covers a wide range of topics, ranging from science to leisure, which is valuable for testing the ability of models to identify specific themes in heterogeneous corpora.
+
+‍
+🔗 Link: 20 Newsgroups
+‍
+
+6. DBpedia Ontology
+This dataset comes from Wikipedia and covers more than 500 thematic categories, perfect for document classification or knowledge enrichment tasks. Its richness and structure make it possible to train models for complex tasks of categorizing encyclopedic content.
+
+‍
+
+🔗 Link: DBpedia Ontology
+‍
+
+7. SST (Stanford Sentiment Treebank)
+A very detailed dataset for the analysis of feelings, with annotations at the level of sentences and words. Its granularity makes it possible to capture subtle feelings and to form models capable of capturing nuances such as positivity or progressive negativity in a criticism.
+
+‍
+
+🔗 Link: Stanford SST
+‍
+
+8. Reuters-21578
+Often used in NLP research, this dataset contains articles organized by economic and financial subject. It is very reliable for the classification of financial and economic topics, an asset for businesses and business intelligence-oriented applications.
+
+‍
+
+🔗 Link: Reuters-21578
+‍
+
+9. Twitter Sentiment Analysis Dataset
+This dataset includes tweets tagged according to the feeling they convey, often positive, negative, or neutral. It is ideal for social media NLP templates because it includes informal language, abbreviations, and short phrases specific to the tweet format.
+
+‍
+
+🔗 Link: Twitter Sentiment Analysis
+‍
+
+10. TREC (Text Retrieval Conference) Question Classification
+Intended for the classification of questions into categories (e.g. location, person, number), this dataset is particularly useful for developing automatic response systems. Its advantage lies in its unique structure, which helps models better understand the intentions of the questions.
+
+‍
+
+🔗 Link: TREC
+‍
+
+11. News Category Dataset
+This journalistic classification dataset brings together news articles from multiple sources, offering a diversified and up-to-date basis for thematic classification or media content analysis models.
+
+‍
+
+🔗 Link: News Category Dataset
+‍
+
+12. SpamAssassin Public Corpus
+This corpus of emails is used for spam detection. Its advantage is to contain messages from various contexts (phishing, promotions, etc.), making it possible to form effective models in the detection of spam in emails and messaging.
+
+‍
+
+🔗 Link: SpamAssassin
+‍
+
+13. Wikipedia Toxic Comments
+This dataset is designed to detect toxic, insulting, or hateful comments on public platforms. It helps develop models for content moderation applications, an increasingly important area in social media and forums.
+
+‍
+
+🔗 Link: Toxic Comments
+‍
+
+14. Emotion Dataset
+This dataset is intended for the classification of emotions (joy, sadness, anger, etc.) in short messages. It is particularly suitable for analysis of feelings in social contexts or for user assistance applications requiring a detailed understanding of emotions.
+
+‍
+
+🔗 Link: Emotion Dataset
+‍
+
+15. Enron Email Dataset
+Including emails from the company Enron, this dataset is commonly used for the analysis of exchanges in companies, especially in contexts of fraud detection or the management of internal communications. Its specificity lies in the variety of its samples (replies, email chains), an asset for the analysis of relationships and topics.
+
+‍
+
+🔗 Link: Enron Email Dataset
+‍
+
+What datasets should I use to detect topics or categories?
+‍
+
+For the detection of topics or categories, several datasets are distinguished by their thematic diversity and their structure adapted to the classification. Here are the most relevant options:
+
+‍
+
+1. AG News
+Composed of press articles classified into four main categories: science, sports, business and technology, this dataset is ideal for thematic classification tasks. Its size and simplicity make it a great starting point for models who need to learn how to identify a variety of topics in news texts.
+
+‍
+
+2. 20 Newsgroups
+This dataset contains articles from 20 discussion forums, covering a wide range of topics such as science, politics, entertainment, and technology. Its thematic richness makes it an ideal resource for training models to recognize categories in heterogeneous corpora and to capture the particularities of each subject.
+
+‍
+
+3. DBpedia Ontology
+Designed from Wikipedia, this dataset is organized into several hundred thematic categories. Thanks to its level of detail, it is particularly suitable for document classification tasks and the categorization of encyclopedic content, ideal for projects that require fine categorization and knowledge enrichment.
+
+‍
+
+4. News Category Dataset
+Composed of press articles from various sources, this dataset is organized into journalistic categories. It is perfect for models aimed at classifying news texts, as it allows you to quickly identify the main topics in media articles, whether they relate to business, entertainment, politics, etc.
+
+‍
+
+5. Reuters-21578
+This dataset contains press articles classified mainly by economic and financial topics. It is widely used for business intelligence-oriented applications and economic research, allowing models to better understand themes specific to business, finance, and industry.
+
+‍
+
+‍
+
+💡 These datasets offer valuable resources for the detection of topics, each being adapted to particular types of content (press, forums, encyclopedias) and offering varied levels of detail according to the needs of the model.
+‍
+
+‍
+
+What about datasets for the classification of texts in several languages?
+‍
+
+Several multilingual datasets are specifically designed for the classification of texts in several languages. These datasets allow machine learning models to learn to recognize and classify texts taking into account linguistic diversity. Here are some of the most used:
+
+‍
+
+1. XNLI (Cross-lingual Natural Language Inference)
+This dataset is designed for tasks of understanding and classifying texts in 15 languages, including languages such as French, Spanish, Chinese, and Arabic. It is mainly used for the classification of nicks (relationships of meaning) but can be adapted for other classification tasks, especially in multilingual contexts.
+
+‍
+
+2. MLdoc
+Based on the Reuters' RCV1/RCV2 corpus, this dataset contains current affairs documents in eight languages (English, German, Spanish, French, etc.). It is organized into four main categories (business, entertainment, health, science) and is ideal for multilingual thematic classification, especially useful for models who need to work in an international news environment.
+
+‍
+
+3. MARC (Multilingual Amazon Reviews Corpus)
+This dataset includes Amazon product reviews in multiple languages (including English, German, French, Japanese, Spanish, etc.), labeled for sentiment classification. It is suitable for projects to classify feelings and opinions on international e-commerce platforms.
+
+‍
+
+4. Jigsaw Multilingual Toxic Comment Classification
+Developed to identify toxic comments in multiple languages (English, Spanish, Spanish, Italian, Italian, Portuguese, French, etc.), this dataset is particularly useful for content moderation tasks in multilingual contexts. It is often used to train models to detect hate speech and other forms of toxicity.
+
+‍
+
+5. CC100
+This dataset, which is part of the Common Crawl project, offers data in several languages, from the web. Although it is not labeled specifically for thematic classification, it is broad enough to extract and build multilingual sub-corpora for specific text classification tasks.
+
+‍
+
+6. OPUS (Open Parallel Corpus)
+OPUS is a collection of multilingual text resources combining data from a variety of sources, such as news sites, forums, and international institutions. Although its content is varied, it allows the creation of multilingual subsets for thematic or feeling classification tasks, depending on the needs of the user.
+
+‍
+
+‍
+
+💡 These multilingual datasets allow researchers and other artificial intelligence enthusiasts to develop models capable of processing textual data in several languages, a valuable asset for international applications or for platforms that require global content management.
+‍
+
+‍
+
+Conclusion
+‍
+
+Text classification plays a central role in natural language processing, and the choice of the right dataset is decisive for the performance and accuracy of models. Datasets provide a structured basis for training models to distinguish between feelings, topics, categories, and even to understand linguistic nuances in multilingual contexts.
+
+‍
+
+Options like IMDB Reviews and Amazon Reviews stand out for sentiment analysis, while datasets like AG News and DBpedia Ontology are first-choice resources for thematic classification. In addition, the specific needs in moderating or detecting hate speech find answers in datasets such as Wikipedia Toxic Comments and Jigsaw Multilingual Toxic Comment Classification, which are particularly suited to multilingual environments.
+
+‍
+
+Thanks to this diversity of resources, researchers and artificial intelligence enthusiasts from all backgrounds have tools adapted to the particularities of each project, whether for content moderation, opinion analysis, or multilingual categorization. Ultimately, these datasets make it possible to form AI models that are more robust and better adapted to the varied requirements of text classification, thus ensuring a solid foundation and better results for the development of advanced NLP solutions.
