@@ -2,7 +2,7 @@
 # Please save the plots to the "results" folder
 import os
 from jasper import generate_jasper_graphs
-
+from natasha import generate_natasha_graphs
 
 if __name__ == "__main__":
     OUTPUT_DIR = "../../results/project1"
@@ -16,3 +16,4 @@ if __name__ == "__main__":
     # Sean
 
     # Natasha
+    generate_natasha_graphs(OUTPUT_DIR)
