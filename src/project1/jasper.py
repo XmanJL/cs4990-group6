@@ -12,7 +12,7 @@ def generate_jasper_graphs(OUTPUT_DIR="../../results/project1"):
     plt.title("Average Exam Scores by Ethnicity")
     plt.xticks(rotation=45)
     plt.tight_layout()
-    plt.savefig(f"{OUTPUT_DIR}/vis1.png", dpi=100)
+    plt.savefig(f"{OUTPUT_DIR}/jasper_vis1.png", dpi=150)
     plt.show()
 
     # figure 2: 2D square plot
@@ -36,7 +36,7 @@ def generate_jasper_graphs(OUTPUT_DIR="../../results/project1"):
     plt.title("Average Chess Board Sizes in different shops")
     plt.xlabel("Shop")
     plt.ylabel("Size (cm)")
-    plt.savefig(f"{OUTPUT_DIR}/vis2.png", dpi=100)
+    plt.savefig(f"{OUTPUT_DIR}/jasper_vis2.png", dpi=150)
     plt.show()
 
     # figure 3: 3D cube plot
@@ -70,5 +70,5 @@ def generate_jasper_graphs(OUTPUT_DIR="../../results/project1"):
     ax.view_init(elev=20, azim=35)
     ax.set_proj_type("ortho")
     ax.set_title("Average Magic Cube Sizes in Different Countries")
-    plt.savefig(f"{OUTPUT_DIR}/vis3.png", dpi=100)
+    plt.savefig(f"{OUTPUT_DIR}/jasper_vis3.png", dpi=150)
     plt.show()

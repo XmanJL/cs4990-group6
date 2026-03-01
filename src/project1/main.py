@@ -3,6 +3,7 @@
 import os
 from jasper import generate_jasper_graphs
 from natasha import generate_natasha_graphs
+from Diego import makeGraphs
 
 if __name__ == "__main__":
     OUTPUT_DIR = "../../results/project1"
@@ -13,6 +14,7 @@ if __name__ == "__main__":
 
     # Diego
     makeGraphs(OUTPUT_DIR)
+    
     # Sean
 
     # Natasha

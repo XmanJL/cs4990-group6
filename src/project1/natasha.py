@@ -16,7 +16,7 @@ def generate_natasha_graphs(OUTPUT_DIR="../../results/project1"):
         plt.vlines(i, 0, steps, linestyles="solid", colors="blue")
     
     plt.xticks(range(len(age_groups)), age_groups)
-    plt.savefig(f"{OUTPUT_DIR}/natasha_vis1.png", dpi=100)
+    plt.savefig(f"{OUTPUT_DIR}/natasha_vis1.png", dpi=150)
     plt.show()
 
     # figure 2: 2D stacked area chart
@@ -31,7 +31,7 @@ def generate_natasha_graphs(OUTPUT_DIR="../../results/project1"):
     plt.ylabel("Non-motor vehicle sales (in millions)")
     plt.xlabel("Year")
     plt.title("Non-motor vehicle sales by category over time (2010-2015)")
-    plt.savefig(f"{OUTPUT_DIR}/natasha_vis2.png", dpi=100)
+    plt.savefig(f"{OUTPUT_DIR}/natasha_vis2.png", dpi=150)
     plt.show()
 
     # figure 3: 3D volume graph
@@ -50,5 +50,5 @@ def generate_natasha_graphs(OUTPUT_DIR="../../results/project1"):
     ax.set_xticks(xpos)
     ax.set_xticklabels(carats)
     ax.set_yticks([])
-    plt.savefig(f"{OUTPUT_DIR}/natasha_vis3.png", dpi=100)
+    plt.savefig(f"{OUTPUT_DIR}/natasha_vis3.png", dpi=150)
     plt.show()
