@@ -12,7 +12,7 @@ if __name__ == "__main__":
     generate_jasper_graphs(OUTPUT_DIR)
 
     # Diego
-
+    makeGraphs(OUTPUT_DIR)
     # Sean
 
     # Natasha
