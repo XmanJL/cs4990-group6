@@ -22,10 +22,9 @@ def generate_sean_graphs(OUTPUT_DIR="../../results/project1"):
     #2D Pie Chart
     fig2, ax2 = plt.subplots(figsize=(7, 5))
 
-    wedges, texts, autotexts = ax2.pie(
+    wedges, texts = ax2.pie(
         ratings,
         labels = genres,
-        autopct = '%1.1f',
         startangle = 90,
         wedgeprops = {"edgecolor": "white", "linewidth": 1.5}
     )
