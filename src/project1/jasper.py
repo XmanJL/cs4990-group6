@@ -69,6 +69,6 @@ def generate_jasper_graphs(OUTPUT_DIR="../../results/project1"):
     ax.set_box_aspect((1, 1, 1))
     ax.view_init(elev=20, azim=35)
     ax.set_proj_type("ortho")
-    ax.set_title("Average Magic Cube Sizes in Different Countries")
+    ax.set_title("Average Rubik's Cube Sizes in Different States")
     plt.savefig(f"{OUTPUT_DIR}/jasper_vis3.png", dpi=150)
     plt.show()
