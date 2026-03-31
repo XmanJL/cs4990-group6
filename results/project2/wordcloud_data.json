@@ -1,0 +1,806 @@
+{
+  "en": [
+    {
+      "word": "player",
+      "count": 97,
+      "tf": 0.02372
+    },
+    {
+      "word": "badminton",
+      "count": 92,
+      "tf": 0.02249
+    },
+    {
+      "word": "shuttlecock",
+      "count": 89,
+      "tf": 0.02176
+    },
+    {
+      "word": "court",
+      "count": 56,
+      "tf": 0.01369
+    },
+    {
+      "word": "racquet",
+      "count": 45,
+      "tf": 0.011
+    },
+    {
+      "word": "may",
+      "count": 43,
+      "tf": 0.01051
+    },
+    {
+      "word": "stroke",
+      "count": 41,
+      "tf": 0.01002
+    },
+    {
+      "word": "net",
+      "count": 40,
+      "tf": 0.00978
+    },
+    {
+      "word": "game",
+      "count": 40,
+      "tf": 0.00978
+    },
+    {
+      "word": "double",
+      "count": 35,
+      "tf": 0.00856
+    },
+    {
+      "word": "opponent",
+      "count": 32,
+      "tf": 0.00782
+    },
+    {
+      "word": "hit",
+      "count": 29,
+      "tf": 0.00709
+    },
+    {
+      "word": "smash",
+      "count": 27,
+      "tf": 0.0066
+    },
+    {
+      "word": "shot",
+      "count": 26,
+      "tf": 0.00636
+    },
+    {
+      "word": "played",
+      "count": 25,
+      "tf": 0.00611
+    },
+    {
+      "word": "play",
+      "count": 25,
+      "tf": 0.00611
+    },
+    {
+      "word": "also",
+      "count": 25,
+      "tf": 0.00611
+    },
+    {
+      "word": "sport",
+      "count": 24,
+      "tf": 0.00587
+    },
+    {
+      "word": "single",
+      "count": 24,
+      "tf": 0.00587
+    },
+    {
+      "word": "side",
+      "count": 24,
+      "tf": 0.00587
+    },
+    {
+      "word": "serve",
+      "count": 24,
+      "tf": 0.00587
+    },
+    {
+      "word": "service",
+      "count": 23,
+      "tf": 0.00562
+    },
+    {
+      "word": "tennis",
+      "count": 23,
+      "tf": 0.00562
+    },
+    {
+      "word": "high",
+      "count": 22,
+      "tf": 0.00538
+    },
+    {
+      "word": "point",
+      "count": 21,
+      "tf": 0.00513
+    },
+    {
+      "word": "often",
+      "count": 20,
+      "tf": 0.00489
+    },
+    {
+      "word": "grip",
+      "count": 20,
+      "tf": 0.00489
+    },
+    {
+      "word": "hitting",
+      "count": 19,
+      "tf": 0.00465
+    },
+    {
+      "word": "level",
+      "count": 18,
+      "tf": 0.0044
+    },
+    {
+      "word": "string",
+      "count": 18,
+      "tf": 0.0044
+    },
+    {
+      "word": "back",
+      "count": 18,
+      "tf": 0.0044
+    },
+    {
+      "word": "used",
+      "count": 17,
+      "tf": 0.00416
+    },
+    {
+      "word": "world",
+      "count": 17,
+      "tf": 0.00416
+    },
+    {
+      "word": "server",
+      "count": 17,
+      "tf": 0.00416
+    },
+    {
+      "word": "backhand",
+      "count": 17,
+      "tf": 0.00416
+    },
+    {
+      "word": "power",
+      "count": 16,
+      "tf": 0.00391
+    },
+    {
+      "word": "rally",
+      "count": 16,
+      "tf": 0.00391
+    },
+    {
+      "word": "forehand",
+      "count": 16,
+      "tf": 0.00391
+    },
+    {
+      "word": "lift",
+      "count": 16,
+      "tf": 0.00391
+    },
+    {
+      "word": "direction",
+      "count": 15,
+      "tf": 0.00367
+    },
+    {
+      "word": "one",
+      "count": 14,
+      "tf": 0.00342
+    },
+    {
+      "word": "serf",
+      "count": 14,
+      "tf": 0.00342
+    },
+    {
+      "word": "must",
+      "count": 14,
+      "tf": 0.00342
+    },
+    {
+      "word": "two",
+      "count": 13,
+      "tf": 0.00318
+    },
+    {
+      "word": "first",
+      "count": 13,
+      "tf": 0.00318
+    },
+    {
+      "word": "win",
+      "count": 13,
+      "tf": 0.00318
+    },
+    {
+      "word": "tournament",
+      "count": 13,
+      "tf": 0.00318
+    },
+    {
+      "word": "team",
+      "count": 12,
+      "tf": 0.00293
+    },
+    {
+      "word": "movement",
+      "count": 12,
+      "tf": 0.00293
+    },
+    {
+      "word": "bwf",
+      "count": 12,
+      "tf": 0.00293
+    },
+    {
+      "word": "time",
+      "count": 12,
+      "tf": 0.00293
+    },
+    {
+      "word": "material",
+      "count": 12,
+      "tf": 0.00293
+    },
+    {
+      "word": "end",
+      "count": 11,
+      "tf": 0.00269
+    },
+    {
+      "word": "match",
+      "count": 11,
+      "tf": 0.00269
+    },
+    {
+      "word": "ball",
+      "count": 11,
+      "tf": 0.00269
+    },
+    {
+      "word": "rule",
+      "count": 11,
+      "tf": 0.00269
+    },
+    {
+      "word": "tension",
+      "count": 11,
+      "tf": 0.00269
+    },
+    {
+      "word": "swing",
+      "count": 11,
+      "tf": 0.00269
+    },
+    {
+      "word": "section",
+      "count": 11,
+      "tf": 0.00269
+    },
+    {
+      "word": "use",
+      "count": 11,
+      "tf": 0.00269
+    },
+    {
+      "word": "action",
+      "count": 11,
+      "tf": 0.00269
+    },
+    {
+      "word": "slicing",
+      "count": 11,
+      "tf": 0.00269
+    },
+    {
+      "word": "much",
+      "count": 10,
+      "tf": 0.00244
+    },
+    {
+      "word": "men",
+      "count": 10,
+      "tf": 0.00244
+    },
+    {
+      "word": "citation",
+      "count": 10,
+      "tf": 0.00244
+    },
+    {
+      "word": "score",
+      "count": 10,
+      "tf": 0.00244
+    },
+    {
+      "word": "pair",
+      "count": 10,
+      "tf": 0.00244
+    },
+    {
+      "word": "make",
+      "count": 10,
+      "tf": 0.00244
+    },
+    {
+      "word": "source",
+      "count": 10,
+      "tf": 0.00244
+    },
+    {
+      "word": "common",
+      "count": 9,
+      "tf": 0.0022
+    },
+    {
+      "word": "called",
+      "count": 9,
+      "tf": 0.0022
+    },
+    {
+      "word": "many",
+      "count": 9,
+      "tf": 0.0022
+    },
+    {
+      "word": "woman",
+      "count": 9,
+      "tf": 0.0022
+    },
+    {
+      "word": "mixed",
+      "count": 9,
+      "tf": 0.0022
+    },
+    {
+      "word": "foot",
+      "count": 9,
+      "tf": 0.0022
+    },
+    {
+      "word": "reach",
+      "count": 9,
+      "tf": 0.0022
+    },
+    {
+      "word": "competition",
+      "count": 9,
+      "tf": 0.0022
+    },
+    {
+      "word": "championship",
+      "count": 9,
+      "tf": 0.0022
+    },
+    {
+      "word": "shuttle",
+      "count": 9,
+      "tf": 0.0022
+    },
+    {
+      "word": "change",
+      "count": 9,
+      "tf": 0.0022
+    }
+  ],
+  "fr": [
+    {
+      "word": "vol",
+      "count": 92,
+      "tf": 0.02243
+    },
+    {
+      "word": "joueur",
+      "count": 88,
+      "tf": 0.02146
+    },
+    {
+      "word": "badminton",
+      "count": 76,
+      "tf": 0.01853
+    },
+    {
+      "word": "a",
+      "count": 52,
+      "tf": 0.01268
+    },
+    {
+      "word": "class",
+      "count": 52,
+      "tf": 0.01268
+    },
+    {
+      "word": "plus",
+      "count": 48,
+      "tf": 0.0117
+    },
+    {
+      "word": "doubl",
+      "count": 46,
+      "tf": 0.01122
+    },
+    {
+      "word": "point",
+      "count": 43,
+      "tf": 0.01049
+    },
+    {
+      "word": "raquet",
+      "count": 42,
+      "tf": 0.01024
+    },
+    {
+      "word": "filet",
+      "count": 41,
+      "tf": 0.01
+    },
+    {
+      "word": "servic",
+      "count": 38,
+      "tf": 0.00927
+    },
+    {
+      "word": "terrain",
+      "count": 34,
+      "tf": 0.00829
+    },
+    {
+      "word": "simpl",
+      "count": 33,
+      "tf": 0.00805
+    },
+    {
+      "word": "jeu",
+      "count": 28,
+      "tf": 0.00683
+    },
+    {
+      "word": "match",
+      "count": 27,
+      "tf": 0.00658
+    },
+    {
+      "word": "niveau",
+      "count": 26,
+      "tf": 0.00634
+    },
+    {
+      "word": "si",
+      "count": 24,
+      "tf": 0.00585
+    },
+    {
+      "word": "lign",
+      "count": 24,
+      "tf": 0.00585
+    },
+    {
+      "word": "doit",
+      "count": 23,
+      "tf": 0.00561
+    },
+    {
+      "word": "pratiqu",
+      "count": 22,
+      "tf": 0.00536
+    },
+    {
+      "word": "set",
+      "count": 22,
+      "tf": 0.00536
+    },
+    {
+      "word": "frapp",
+      "count": 20,
+      "tf": 0.00488
+    },
+    {
+      "word": "sport",
+      "count": 19,
+      "tf": 0.00463
+    },
+    {
+      "word": "deux",
+      "count": 19,
+      "tf": 0.00463
+    },
+    {
+      "word": "homm",
+      "count": 19,
+      "tf": 0.00463
+    },
+    {
+      "word": "droit",
+      "count": 19,
+      "tf": 0.00463
+    },
+    {
+      "word": "depuis",
+      "count": 18,
+      "tf": 0.00439
+    },
+    {
+      "word": "jou",
+      "count": 18,
+      "tf": 0.00439
+    },
+    {
+      "word": "serveur",
+      "count": 18,
+      "tf": 0.00439
+    },
+    {
+      "word": "mond",
+      "count": 17,
+      "tf": 0.00415
+    },
+    {
+      "word": "dam",
+      "count": 17,
+      "tf": 0.00415
+    },
+    {
+      "word": "entre",
+      "count": 17,
+      "tf": 0.00415
+    },
+    {
+      "word": "utilis",
+      "count": 17,
+      "tf": 0.00415
+    },
+    {
+      "word": "gagn",
+      "count": 16,
+      "tf": 0.0039
+    },
+    {
+      "word": "pend",
+      "count": 16,
+      "tf": 0.0039
+    },
+    {
+      "word": "être",
+      "count": 16,
+      "tf": 0.0039
+    },
+    {
+      "word": "lor",
+      "count": 15,
+      "tf": 0.00366
+    },
+    {
+      "word": "disciplin",
+      "count": 15,
+      "tf": 0.00366
+    },
+    {
+      "word": "championnat",
+      "count": 15,
+      "tf": 0.00366
+    },
+    {
+      "word": "chaqu",
+      "count": 15,
+      "tf": 0.00366
+    },
+    {
+      "word": "coup",
+      "count": 15,
+      "tf": 0.00366
+    },
+    {
+      "word": "féder",
+      "count": 14,
+      "tf": 0.00341
+    },
+    {
+      "word": "mixt",
+      "count": 14,
+      "tf": 0.00341
+    },
+    {
+      "word": "plum",
+      "count": 14,
+      "tf": 0.00341
+    },
+    {
+      "word": "haut",
+      "count": 14,
+      "tf": 0.00341
+    },
+    {
+      "word": "premi",
+      "count": 14,
+      "tf": 0.00341
+    },
+    {
+      "word": "tres",
+      "count": 13,
+      "tf": 0.00317
+    },
+    {
+      "word": "ains",
+      "count": 13,
+      "tf": 0.00317
+    },
+    {
+      "word": "moyen",
+      "count": 13,
+      "tf": 0.00317
+    },
+    {
+      "word": "équip",
+      "count": 13,
+      "tf": 0.00317
+    },
+    {
+      "word": "zon",
+      "count": 13,
+      "tf": 0.00317
+    },
+    {
+      "word": "olymp",
+      "count": 12,
+      "tf": 0.00293
+    },
+    {
+      "word": "part",
+      "count": 12,
+      "tf": 0.00293
+    },
+    {
+      "word": "an",
+      "count": 12,
+      "tf": 0.00293
+    },
+    {
+      "word": "ver",
+      "count": 12,
+      "tf": 0.00293
+    },
+    {
+      "word": "regl",
+      "count": 12,
+      "tf": 0.00293
+    },
+    {
+      "word": "scor",
+      "count": 12,
+      "tf": 0.00293
+    },
+    {
+      "word": "mont",
+      "count": 12,
+      "tf": 0.00293
+    },
+    {
+      "word": "plac",
+      "count": 11,
+      "tf": 0.00268
+    },
+    {
+      "word": "faut",
+      "count": 11,
+      "tf": 0.00268
+    },
+    {
+      "word": "touch",
+      "count": 11,
+      "tf": 0.00268
+    },
+    {
+      "word": "autr",
+      "count": 11,
+      "tf": 0.00268
+    },
+    {
+      "word": "trajectoir",
+      "count": 11,
+      "tf": 0.00268
+    },
+    {
+      "word": "comm",
+      "count": 11,
+      "tf": 0.00268
+    },
+    {
+      "word": "dont",
+      "count": 11,
+      "tf": 0.00268
+    },
+    {
+      "word": "ser",
+      "count": 11,
+      "tf": 0.00268
+    },
+    {
+      "word": "champion",
+      "count": 10,
+      "tf": 0.00244
+    },
+    {
+      "word": "rapid",
+      "count": 10,
+      "tf": 0.00244
+    },
+    {
+      "word": "court",
+      "count": 10,
+      "tf": 0.00244
+    },
+    {
+      "word": "cet",
+      "count": 10,
+      "tf": 0.00244
+    },
+    {
+      "word": "sert",
+      "count": 10,
+      "tf": 0.00244
+    },
+    {
+      "word": "serv",
+      "count": 10,
+      "tf": 0.00244
+    },
+    {
+      "word": "fond",
+      "count": 10,
+      "tf": 0.00244
+    },
+    {
+      "word": "fait",
+      "count": 10,
+      "tf": 0.00244
+    },
+    {
+      "word": "metr",
+      "count": 10,
+      "tf": 0.00244
+    },
+    {
+      "word": "drapeau",
+      "count": 10,
+      "tf": 0.00244
+    },
+    {
+      "word": "bwf",
+      "count": 9,
+      "tf": 0.00219
+    },
+    {
+      "word": "moin",
+      "count": 9,
+      "tf": 0.00219
+    },
+    {
+      "word": "vitess",
+      "count": 9,
+      "tf": 0.00219
+    },
+    {
+      "word": "compétit",
+      "count": 9,
+      "tf": 0.00219
+    }
+  ]
+}
