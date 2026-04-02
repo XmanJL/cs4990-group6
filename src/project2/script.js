@@ -36,7 +36,8 @@ const PALETTE = [
 const getColor = i => PALETTE[i % PALETTE.length];
 
 // ── App state ──────────────────────────────────────────────────────────────
-let DATA = null;          // { en: [{word,count,tf},...], fr: [...] }  — from JSON
+// DATA shape from export_json(): { en: [{word, count, tf, idf, tfidf},...], fr: [...] }
+let DATA = null;
 let lang = 'en';
 let zoom = 1, panX = 0, panY = 0;
 let words = [];
@@ -82,7 +83,7 @@ function fontSize(count, maxC, minC) {
 }
 
 // ── Layout ─────────────────────────────────────────────────────────────────
-// ~20 % vertical words, matching matplotlib wordcloud's default orientation mix
+// ~20% vertical words, matching matplotlib wordcloud's default orientation mix
 const ANGLE_PAT = [0,0,0,0,0,0,90,0,0,0,90,0,0,0,0,90,0,0,0,0];
 
 function layout() {
@@ -119,7 +120,9 @@ function layout() {
 
       if (ok) {
         boxes.push({ x:bx, y:by, w:bw, h:bh });
-        words.push({ word:item.word, count:item.count, tf:item.tf, rank:i+1,
+        // carry idf and tfidf from JSON into each word object
+        words.push({ word:item.word, count:item.count, tf:item.tf,
+                     idf:item.idf, tfidf:item.tfidf, rank:i+1,
                      fs, angle, color, tw, th, bx, by, bw, bh,
                      dragDx:0, dragDy:0, hovered:false, selected:false });
         placed = true; break;
@@ -130,7 +133,8 @@ function layout() {
       const bx = cx + (Math.random()-0.5)*W*0.9;
       const by = cy + (Math.random()-0.5)*H*0.9;
       boxes.push({ x:bx, y:by, w:bw, h:bh });
-      words.push({ word:item.word, count:item.count, tf:item.tf, rank:i+1,
+      words.push({ word:item.word, count:item.count, tf:item.tf,
+                   idf:item.idf, tfidf:item.tfidf, rank:i+1,
                    fs, angle, color, tw, th, bx, by, bw, bh,
                    dragDx:0, dragDy:0, hovered:false, selected:false });
     }
@@ -233,7 +237,9 @@ window.addEventListener('mousemove', e => {
     wrap.style.cursor='pointer';
     document.getElementById('tt-word').textContent=hit.word;
     const tr=lang==='fr'?`  →  ${FR_TRANSLATIONS[hit.word]||'?'}`:'';
-    document.getElementById('tt-info').textContent=`count: ${hit.count}   tf: ${hit.tf}${tr}`;
+    // TF = raw count; TF-IDF = TF * log(N/Df)
+    document.getElementById('tt-info').textContent=
+      `tf: ${hit.tf}   idf: ${hit.idf != null ? hit.idf.toFixed(5) : '—'}   tf-idf: ${hit.tfidf != null ? hit.tfidf.toFixed(5) : '—'}${tr}`;
     tt.style.left=(e.clientX+14)+'px'; tt.style.top=(e.clientY-8)+'px';
     tt.classList.add('show');
   } else {
@@ -289,10 +295,12 @@ function showCard(w) {
   const maxC=DATA[lang][0].count, pct=Math.round(w.count/maxC*100);
   document.getElementById('card-translation').textContent=
     lang==='fr'?'→ '+(FR_TRANSLATIONS[w.word]||'(no translation)'):'';
+  // TF = raw count; IDF = log(N/Df); TF-IDF = TF * IDF
   document.getElementById('s-rank').textContent='#'+w.rank;
-  document.getElementById('s-count').textContent=w.count;
-  document.getElementById('s-tf').textContent=w.tf.toFixed(5);
-  document.getElementById('s-pct').textContent=pct+'% of max';
+  document.getElementById('s-tf').textContent=w.tf;
+  document.getElementById('s-idf').textContent=w.idf != null ? w.idf.toFixed(5) : '—';
+  document.getElementById('s-tfidf').textContent=w.tfidf != null ? w.tfidf.toFixed(5) : '—';
+  document.getElementById('s-pct').textContent=pct+'% of top term';
   document.getElementById('tf-bar').style.width=pct+'%';
   document.getElementById('tf-bar').style.background=w.color;
   document.getElementById('card-stats').style.display='';
