@@ -1,0 +1,1126 @@
+{
+  "en": [
+    {
+      "word": "player",
+      "count": 97,
+      "tf": 97,
+      "idf": 0.69315,
+      "tfidf": 67.23528
+    },
+    {
+      "word": "badminton",
+      "count": 92,
+      "tf": 92,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "shuttlecock",
+      "count": 89,
+      "tf": 89,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "court",
+      "count": 56,
+      "tf": 56,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "racquet",
+      "count": 45,
+      "tf": 45,
+      "idf": 0.69315,
+      "tfidf": 31.19162
+    },
+    {
+      "word": "may",
+      "count": 43,
+      "tf": 43,
+      "idf": 0.69315,
+      "tfidf": 29.80533
+    },
+    {
+      "word": "stroke",
+      "count": 41,
+      "tf": 41,
+      "idf": 0.69315,
+      "tfidf": 28.41903
+    },
+    {
+      "word": "net",
+      "count": 40,
+      "tf": 40,
+      "idf": 0.69315,
+      "tfidf": 27.72589
+    },
+    {
+      "word": "game",
+      "count": 40,
+      "tf": 40,
+      "idf": 0.69315,
+      "tfidf": 27.72589
+    },
+    {
+      "word": "double",
+      "count": 35,
+      "tf": 35,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "opponent",
+      "count": 32,
+      "tf": 32,
+      "idf": 0.69315,
+      "tfidf": 22.18071
+    },
+    {
+      "word": "hit",
+      "count": 29,
+      "tf": 29,
+      "idf": 0.69315,
+      "tfidf": 20.10127
+    },
+    {
+      "word": "smash",
+      "count": 27,
+      "tf": 27,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "shot",
+      "count": 26,
+      "tf": 26,
+      "idf": 0.69315,
+      "tfidf": 18.02183
+    },
+    {
+      "word": "played",
+      "count": 25,
+      "tf": 25,
+      "idf": 0.69315,
+      "tfidf": 17.32868
+    },
+    {
+      "word": "play",
+      "count": 25,
+      "tf": 25,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "also",
+      "count": 25,
+      "tf": 25,
+      "idf": 0.69315,
+      "tfidf": 17.32868
+    },
+    {
+      "word": "sport",
+      "count": 24,
+      "tf": 24,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "single",
+      "count": 24,
+      "tf": 24,
+      "idf": 0.69315,
+      "tfidf": 16.63553
+    },
+    {
+      "word": "side",
+      "count": 24,
+      "tf": 24,
+      "idf": 0.69315,
+      "tfidf": 16.63553
+    },
+    {
+      "word": "serve",
+      "count": 24,
+      "tf": 24,
+      "idf": 0.69315,
+      "tfidf": 16.63553
+    },
+    {
+      "word": "service",
+      "count": 23,
+      "tf": 23,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "tennis",
+      "count": 23,
+      "tf": 23,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "high",
+      "count": 22,
+      "tf": 22,
+      "idf": 0.69315,
+      "tfidf": 15.24924
+    },
+    {
+      "word": "point",
+      "count": 21,
+      "tf": 21,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "often",
+      "count": 20,
+      "tf": 20,
+      "idf": 0.69315,
+      "tfidf": 13.86294
+    },
+    {
+      "word": "grip",
+      "count": 20,
+      "tf": 20,
+      "idf": 0.69315,
+      "tfidf": 13.86294
+    },
+    {
+      "word": "hitting",
+      "count": 19,
+      "tf": 19,
+      "idf": 0.69315,
+      "tfidf": 13.1698
+    },
+    {
+      "word": "level",
+      "count": 18,
+      "tf": 18,
+      "idf": 0.69315,
+      "tfidf": 12.47665
+    },
+    {
+      "word": "string",
+      "count": 18,
+      "tf": 18,
+      "idf": 0.69315,
+      "tfidf": 12.47665
+    },
+    {
+      "word": "back",
+      "count": 18,
+      "tf": 18,
+      "idf": 0.69315,
+      "tfidf": 12.47665
+    },
+    {
+      "word": "used",
+      "count": 17,
+      "tf": 17,
+      "idf": 0.69315,
+      "tfidf": 11.7835
+    },
+    {
+      "word": "world",
+      "count": 17,
+      "tf": 17,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "server",
+      "count": 17,
+      "tf": 17,
+      "idf": 0.69315,
+      "tfidf": 11.7835
+    },
+    {
+      "word": "backhand",
+      "count": 17,
+      "tf": 17,
+      "idf": 0.69315,
+      "tfidf": 11.7835
+    },
+    {
+      "word": "power",
+      "count": 16,
+      "tf": 16,
+      "idf": 0.69315,
+      "tfidf": 11.09035
+    },
+    {
+      "word": "rally",
+      "count": 16,
+      "tf": 16,
+      "idf": 0.69315,
+      "tfidf": 11.09035
+    },
+    {
+      "word": "forehand",
+      "count": 16,
+      "tf": 16,
+      "idf": 0.69315,
+      "tfidf": 11.09035
+    },
+    {
+      "word": "lift",
+      "count": 16,
+      "tf": 16,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "direction",
+      "count": 15,
+      "tf": 15,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "one",
+      "count": 14,
+      "tf": 14,
+      "idf": 0.69315,
+      "tfidf": 9.70406
+    },
+    {
+      "word": "serf",
+      "count": 14,
+      "tf": 14,
+      "idf": 0.69315,
+      "tfidf": 9.70406
+    },
+    {
+      "word": "must",
+      "count": 14,
+      "tf": 14,
+      "idf": 0.69315,
+      "tfidf": 9.70406
+    },
+    {
+      "word": "two",
+      "count": 13,
+      "tf": 13,
+      "idf": 0.69315,
+      "tfidf": 9.01091
+    },
+    {
+      "word": "first",
+      "count": 13,
+      "tf": 13,
+      "idf": 0.69315,
+      "tfidf": 9.01091
+    },
+    {
+      "word": "win",
+      "count": 13,
+      "tf": 13,
+      "idf": 0.69315,
+      "tfidf": 9.01091
+    },
+    {
+      "word": "tournament",
+      "count": 13,
+      "tf": 13,
+      "idf": 0.69315,
+      "tfidf": 9.01091
+    },
+    {
+      "word": "team",
+      "count": 12,
+      "tf": 12,
+      "idf": 0.69315,
+      "tfidf": 8.31777
+    },
+    {
+      "word": "movement",
+      "count": 12,
+      "tf": 12,
+      "idf": 0.69315,
+      "tfidf": 8.31777
+    },
+    {
+      "word": "bwf",
+      "count": 12,
+      "tf": 12,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "time",
+      "count": 12,
+      "tf": 12,
+      "idf": 0.69315,
+      "tfidf": 8.31777
+    },
+    {
+      "word": "material",
+      "count": 12,
+      "tf": 12,
+      "idf": 0.69315,
+      "tfidf": 8.31777
+    },
+    {
+      "word": "end",
+      "count": 11,
+      "tf": 11,
+      "idf": 0.69315,
+      "tfidf": 7.62462
+    },
+    {
+      "word": "match",
+      "count": 11,
+      "tf": 11,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "ball",
+      "count": 11,
+      "tf": 11,
+      "idf": 0.69315,
+      "tfidf": 7.62462
+    },
+    {
+      "word": "rule",
+      "count": 11,
+      "tf": 11,
+      "idf": 0.69315,
+      "tfidf": 7.62462
+    },
+    {
+      "word": "tension",
+      "count": 11,
+      "tf": 11,
+      "idf": 0.69315,
+      "tfidf": 7.62462
+    },
+    {
+      "word": "swing",
+      "count": 11,
+      "tf": 11,
+      "idf": 0.69315,
+      "tfidf": 7.62462
+    },
+    {
+      "word": "section",
+      "count": 11,
+      "tf": 11,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "use",
+      "count": 11,
+      "tf": 11,
+      "idf": 0.69315,
+      "tfidf": 7.62462
+    },
+    {
+      "word": "action",
+      "count": 11,
+      "tf": 11,
+      "idf": 0.69315,
+      "tfidf": 7.62462
+    },
+    {
+      "word": "slicing",
+      "count": 11,
+      "tf": 11,
+      "idf": 0.69315,
+      "tfidf": 7.62462
+    },
+    {
+      "word": "much",
+      "count": 10,
+      "tf": 10,
+      "idf": 0.69315,
+      "tfidf": 6.93147
+    },
+    {
+      "word": "men",
+      "count": 10,
+      "tf": 10,
+      "idf": 0.69315,
+      "tfidf": 6.93147
+    },
+    {
+      "word": "citation",
+      "count": 10,
+      "tf": 10,
+      "idf": 0.69315,
+      "tfidf": 6.93147
+    },
+    {
+      "word": "score",
+      "count": 10,
+      "tf": 10,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "pair",
+      "count": 10,
+      "tf": 10,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "make",
+      "count": 10,
+      "tf": 10,
+      "idf": 0.69315,
+      "tfidf": 6.93147
+    },
+    {
+      "word": "source",
+      "count": 10,
+      "tf": 10,
+      "idf": 0.69315,
+      "tfidf": 6.93147
+    },
+    {
+      "word": "common",
+      "count": 9,
+      "tf": 9,
+      "idf": 0.69315,
+      "tfidf": 6.23832
+    },
+    {
+      "word": "called",
+      "count": 9,
+      "tf": 9,
+      "idf": 0.69315,
+      "tfidf": 6.23832
+    },
+    {
+      "word": "many",
+      "count": 9,
+      "tf": 9,
+      "idf": 0.69315,
+      "tfidf": 6.23832
+    },
+    {
+      "word": "woman",
+      "count": 9,
+      "tf": 9,
+      "idf": 0.69315,
+      "tfidf": 6.23832
+    },
+    {
+      "word": "mixed",
+      "count": 9,
+      "tf": 9,
+      "idf": 0.69315,
+      "tfidf": 6.23832
+    },
+    {
+      "word": "foot",
+      "count": 9,
+      "tf": 9,
+      "idf": 0.69315,
+      "tfidf": 6.23832
+    },
+    {
+      "word": "reach",
+      "count": 9,
+      "tf": 9,
+      "idf": 0.69315,
+      "tfidf": 6.23832
+    },
+    {
+      "word": "competition",
+      "count": 9,
+      "tf": 9,
+      "idf": 0.69315,
+      "tfidf": 6.23832
+    },
+    {
+      "word": "championship",
+      "count": 9,
+      "tf": 9,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "shuttle",
+      "count": 9,
+      "tf": 9,
+      "idf": 0.69315,
+      "tfidf": 6.23832
+    },
+    {
+      "word": "change",
+      "count": 9,
+      "tf": 9,
+      "idf": 0.69315,
+      "tfidf": 6.23832
+    }
+  ],
+  "fr": [
+    {
+      "word": "badminton",
+      "count": 76,
+      "tf": 76,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "volant",
+      "count": 75,
+      "tf": 75,
+      "idf": 0.69315,
+      "tfidf": 51.98604
+    },
+    {
+      "word": "a",
+      "count": 52,
+      "tf": 52,
+      "idf": 0.69315,
+      "tfidf": 36.04365
+    },
+    {
+      "word": "joueur",
+      "count": 52,
+      "tf": 52,
+      "idf": 0.69315,
+      "tfidf": 36.04365
+    },
+    {
+      "word": "plus",
+      "count": 48,
+      "tf": 48,
+      "idf": 0.69315,
+      "tfidf": 33.27106
+    },
+    {
+      "word": "double",
+      "count": 44,
+      "tf": 44,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "filet",
+      "count": 41,
+      "tf": 41,
+      "idf": 0.69315,
+      "tfidf": 28.41903
+    },
+    {
+      "word": "service",
+      "count": 37,
+      "tf": 37,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "joueurs",
+      "count": 36,
+      "tf": 36,
+      "idf": 0.69315,
+      "tfidf": 24.9533
+    },
+    {
+      "word": "terrain",
+      "count": 34,
+      "tf": 34,
+      "idf": 0.69315,
+      "tfidf": 23.567
+    },
+    {
+      "word": "classement",
+      "count": 34,
+      "tf": 34,
+      "idf": 0.69315,
+      "tfidf": 23.567
+    },
+    {
+      "word": "raquette",
+      "count": 31,
+      "tf": 31,
+      "idf": 0.69315,
+      "tfidf": 21.48756
+    },
+    {
+      "word": "simple",
+      "count": 31,
+      "tf": 31,
+      "idf": 0.69315,
+      "tfidf": 21.48756
+    },
+    {
+      "word": "jeu",
+      "count": 28,
+      "tf": 28,
+      "idf": 0.69315,
+      "tfidf": 19.40812
+    },
+    {
+      "word": "niveau",
+      "count": 26,
+      "tf": 26,
+      "idf": 0.69315,
+      "tfidf": 18.02183
+    },
+    {
+      "word": "points",
+      "count": 26,
+      "tf": 26,
+      "idf": 0.69315,
+      "tfidf": 18.02183
+    },
+    {
+      "word": "si",
+      "count": 24,
+      "tf": 24,
+      "idf": 0.69315,
+      "tfidf": 16.63553
+    },
+    {
+      "word": "doit",
+      "count": 23,
+      "tf": 23,
+      "idf": 0.69315,
+      "tfidf": 15.94239
+    },
+    {
+      "word": "deux",
+      "count": 19,
+      "tf": 19,
+      "idf": 0.69315,
+      "tfidf": 13.1698
+    },
+    {
+      "word": "hommes",
+      "count": 19,
+      "tf": 19,
+      "idf": 0.69315,
+      "tfidf": 13.1698
+    },
+    {
+      "word": "match",
+      "count": 19,
+      "tf": 19,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "depuis",
+      "count": 18,
+      "tf": 18,
+      "idf": 0.69315,
+      "tfidf": 12.47665
+    },
+    {
+      "word": "ligne",
+      "count": 18,
+      "tf": 18,
+      "idf": 0.69315,
+      "tfidf": 12.47665
+    },
+    {
+      "word": "serveur",
+      "count": 18,
+      "tf": 18,
+      "idf": 0.69315,
+      "tfidf": 12.47665
+    },
+    {
+      "word": "monde",
+      "count": 17,
+      "tf": 17,
+      "idf": 0.69315,
+      "tfidf": 11.7835
+    },
+    {
+      "word": "entre",
+      "count": 17,
+      "tf": 17,
+      "idf": 0.69315,
+      "tfidf": 11.7835
+    },
+    {
+      "word": "point",
+      "count": 16,
+      "tf": 16,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "dames",
+      "count": 16,
+      "tf": 16,
+      "idf": 0.69315,
+      "tfidf": 11.09035
+    },
+    {
+      "word": "pendant",
+      "count": 16,
+      "tf": 16,
+      "idf": 0.69315,
+      "tfidf": 11.09035
+    },
+    {
+      "word": "être",
+      "count": 16,
+      "tf": 16,
+      "idf": 0.69315,
+      "tfidf": 11.09035
+    },
+    {
+      "word": "lors",
+      "count": 15,
+      "tf": 15,
+      "idf": 0.69315,
+      "tfidf": 10.39721
+    },
+    {
+      "word": "chaque",
+      "count": 15,
+      "tf": 15,
+      "idf": 0.69315,
+      "tfidf": 10.39721
+    },
+    {
+      "word": "volants",
+      "count": 14,
+      "tf": 14,
+      "idf": 0.69315,
+      "tfidf": 9.70406
+    },
+    {
+      "word": "set",
+      "count": 14,
+      "tf": 14,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "fédération",
+      "count": 13,
+      "tf": 13,
+      "idf": 0.69315,
+      "tfidf": 9.01091
+    },
+    {
+      "word": "mixte",
+      "count": 13,
+      "tf": 13,
+      "idf": 0.69315,
+      "tfidf": 9.01091
+    },
+    {
+      "word": "très",
+      "count": 13,
+      "tf": 13,
+      "idf": 0.69315,
+      "tfidf": 9.01091
+    },
+    {
+      "word": "ainsi",
+      "count": 13,
+      "tf": 13,
+      "idf": 0.69315,
+      "tfidf": 9.01091
+    },
+    {
+      "word": "sport",
+      "count": 12,
+      "tf": 12,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "haut",
+      "count": 12,
+      "tf": 12,
+      "idf": 0.69315,
+      "tfidf": 8.31777
+    },
+    {
+      "word": "vers",
+      "count": 12,
+      "tf": 12,
+      "idf": 0.69315,
+      "tfidf": 8.31777
+    },
+    {
+      "word": "pratique",
+      "count": 12,
+      "tf": 12,
+      "idf": 0.69315,
+      "tfidf": 8.31777
+    },
+    {
+      "word": "score",
+      "count": 12,
+      "tf": 12,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "droit",
+      "count": 12,
+      "tf": 12,
+      "idf": 0.69315,
+      "tfidf": 8.31777
+    },
+    {
+      "word": "coup",
+      "count": 12,
+      "tf": 12,
+      "idf": 0.69315,
+      "tfidf": 8.31777
+    },
+    {
+      "word": "discipline",
+      "count": 11,
+      "tf": 11,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "trajectoire",
+      "count": 11,
+      "tf": 11,
+      "idf": 0.69315,
+      "tfidf": 7.62462
+    },
+    {
+      "word": "plumes",
+      "count": 11,
+      "tf": 11,
+      "idf": 0.69315,
+      "tfidf": 7.62462
+    },
+    {
+      "word": "raquettes",
+      "count": 11,
+      "tf": 11,
+      "idf": 0.69315,
+      "tfidf": 7.62462
+    },
+    {
+      "word": "comme",
+      "count": 11,
+      "tf": 11,
+      "idf": 0.69315,
+      "tfidf": 7.62462
+    },
+    {
+      "word": "dont",
+      "count": 11,
+      "tf": 11,
+      "idf": 0.69315,
+      "tfidf": 7.62462
+    },
+    {
+      "word": "touche",
+      "count": 10,
+      "tf": 10,
+      "idf": 0.69315,
+      "tfidf": 6.93147
+    },
+    {
+      "word": "championnats",
+      "count": 10,
+      "tf": 10,
+      "idf": 0.69315,
+      "tfidf": 6.93147
+    },
+    {
+      "word": "sert",
+      "count": 10,
+      "tf": 10,
+      "idf": 0.69315,
+      "tfidf": 6.93147
+    },
+    {
+      "word": "moyenne",
+      "count": 10,
+      "tf": 10,
+      "idf": 0.69315,
+      "tfidf": 6.93147
+    },
+    {
+      "word": "drapeau",
+      "count": 10,
+      "tf": 10,
+      "idf": 0.69315,
+      "tfidf": 6.93147
+    },
+    {
+      "word": "bwf",
+      "count": 9,
+      "tf": 9,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "moins",
+      "count": 9,
+      "tf": 9,
+      "idf": 0.69315,
+      "tfidf": 6.23832
+    },
+    {
+      "word": "court",
+      "count": 9,
+      "tf": 9,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "vitesse",
+      "count": 9,
+      "tf": 9,
+      "idf": 0.69315,
+      "tfidf": 6.23832
+    },
+    {
+      "word": "non",
+      "count": 9,
+      "tf": 9,
+      "idf": 0.69315,
+      "tfidf": 6.23832
+    },
+    {
+      "word": "ans",
+      "count": 9,
+      "tf": 9,
+      "idf": 0.69315,
+      "tfidf": 6.23832
+    },
+    {
+      "word": "main",
+      "count": 9,
+      "tf": 9,
+      "idf": 0.0,
+      "tfidf": 0.0
+    },
+    {
+      "word": "jeux",
+      "count": 9,
+      "tf": 9,
+      "idf": 0.69315,
+      "tfidf": 6.23832
+    },
+    {
+      "word": "fond",
+      "count": 9,
+      "tf": 9,
+      "idf": 0.69315,
+      "tfidf": 6.23832
+    },
+    {
+      "word": "zone",
+      "count": 9,
+      "tf": 9,
+      "idf": 0.69315,
+      "tfidf": 6.23832
+    },
+    {
+      "word": "classements",
+      "count": 9,
+      "tf": 9,
+      "idf": 0.69315,
+      "tfidf": 6.23832
+    },
+    {
+      "word": "corps",
+      "count": 8,
+      "tf": 8,
+      "idf": 0.69315,
+      "tfidf": 5.54518
+    },
+    {
+      "word": "faute",
+      "count": 8,
+      "tf": 8,
+      "idf": 0.69315,
+      "tfidf": 5.54518
+    },
+    {
+      "word": "peut",
+      "count": 8,
+      "tf": 8,
+      "idf": 0.69315,
+      "tfidf": 5.54518
+    },
+    {
+      "word": "bien",
+      "count": 8,
+      "tf": 8,
+      "idf": 0.69315,
+      "tfidf": 5.54518
+    },
+    {
+      "word": "fois",
+      "count": 8,
+      "tf": 8,
+      "idf": 0.69315,
+      "tfidf": 5.54518
+    },
+    {
+      "word": "frappé",
+      "count": 8,
+      "tf": 8,
+      "idf": 0.69315,
+      "tfidf": 5.54518
+    },
+    {
+      "word": "cette",
+      "count": 8,
+      "tf": 8,
+      "idf": 0.69315,
+      "tfidf": 5.54518
+    },
+    {
+      "word": "règles",
+      "count": 8,
+      "tf": 8,
+      "idf": 0.69315,
+      "tfidf": 5.54518
+    },
+    {
+      "word": "sets",
+      "count": 8,
+      "tf": 8,
+      "idf": 0.69315,
+      "tfidf": 5.54518
+    },
+    {
+      "word": "cas",
+      "count": 8,
+      "tf": 8,
+      "idf": 0.69315,
+      "tfidf": 5.54518
+    },
+    {
+      "word": "fait",
+      "count": 8,
+      "tf": 8,
+      "idf": 0.69315,
+      "tfidf": 5.54518
+    },
+    {
+      "word": "utilisé",
+      "count": 8,
+      "tf": 8,
+      "idf": 0.69315,
+      "tfidf": 5.54518
+    },
+    {
+      "word": "descente",
+      "count": 8,
+      "tf": 8,
+      "idf": 0.69315,
+      "tfidf": 5.54518
+    }
+  ]
+}

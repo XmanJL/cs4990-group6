@@ -3,7 +3,7 @@ import string
 from pathlib import Path
 import nltk
 from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer, SnowballStemmer
+from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 
 # download resources
@@ -17,7 +17,6 @@ en_stop = set(stopwords.words("english"))
 fr_stop = set(stopwords.words("french"))
 
 lemmatizer = WordNetLemmatizer()
-fr_stemmer = SnowballStemmer("french")
 
 # read file
 def read_text(file):
@@ -45,7 +44,7 @@ def preprocess_fr(text):
         if (w in fr_stop or w in string.punctuation or not w.isalpha()):
             continue
 
-        cleaned.append(fr_stemmer.stem(w))
+        cleaned.append(w)
 
     return cleaned
 

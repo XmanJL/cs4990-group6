@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Badminton Interactive Word Cloud</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="toolbar">
+  <h2>Badminton Word Cloud</h2>
+  <button class="tab-btn active" id="btn-en" onclick="switchLang('en')">🇬🇧 English</button>
+  <button class="tab-btn" id="btn-fr" onclick="switchLang('fr')">🇫🇷 French</button>
+  <span class="sep">|</span>
+  <button class="ctrl-btn" onclick="doZoom(-0.12)">−</button>
+  <span id="zoom-label">100%</span>
+  <button class="ctrl-btn" onclick="doZoom(0.12)">+</button>
+  <button class="reset-btn" onclick="resetView()">Reset view</button>
+  <span class="hint">
+    <kbd>click</kbd> inspect &nbsp;
+    <kbd>drag word</kbd> reposition &nbsp;
+    <kbd>drag bg</kbd> pan &nbsp;
+    <kbd>scroll</kbd> zoom &nbsp;
+    <kbd>dbl-click</kbd> reset
+  </span>
+</div>
+
+<div id="main">
+  <div id="canvas-wrap">
+    <canvas id="c"></canvas>
+    <div id="overlay">
+      <div class="spinner"></div>
+      <span>Loading <code>wordcloud_data.json</code>…</span>
+    </div>
+  </div>
+
+  <div id="info-panel">
+    <div class="panel-title">Word Inspector</div>
+    <div id="word-card" class="empty">
+      <div id="card-hint">Click any word<br>to see its details</div>
+      <div id="card-word" style="display:none"></div>
+      <div id="card-translation"></div>
+      <div id="card-stats" style="display:none">
+        <div class="stat-row"><span class="stat-key">Rank</span>           <span class="stat-val" id="s-rank"></span></div>
+        <div class="stat-row"><span class="stat-key">TF</span> <span class="stat-val" id="s-tf"></span></div>
+        <div class="stat-row"><span class="stat-key">IDF</span>  <span class="stat-val" id="s-idf"></span></div>
+        <div class="stat-row"><span class="stat-key">TF-IDF</span>         <span class="stat-val" id="s-tfidf"></span></div>
+        <div class="stat-row"><span class="stat-key">% of top term</span>  <span class="stat-val" id="s-pct"></span></div>
+        <div class="tf-bar-bg"><div class="tf-bar-fill" id="tf-bar"></div></div>
+      </div>
+    </div>
+
+    <div class="panel-title">Top Terms</div>
+    <div id="word-list"></div>
+  </div>
+</div>
+
+<div id="tooltip">
+  <div id="tt-word"></div>
+  <div id="tt-info"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
