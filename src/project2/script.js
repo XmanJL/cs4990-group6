@@ -248,11 +248,17 @@ window.addEventListener('mousemove', e => {
 });
 
 window.addEventListener('mouseup', e => {
-  const r=canvas.getBoundingClientRect();
-  const cx=e.clientX-r.left, cy=e.clientY-r.top;
-  const wasWord=!!draggingWord;
-  draggingWord=null; draggingCanvas=false; wrap.classList.remove('dragging');
-  if (!didMove&&!wasWord) { const h=hitTest(cx,cy); if(h) selectWord(h); else deselect(); }
+  const r = canvas.getBoundingClientRect();
+  const cx = e.clientX - r.left, cy = e.clientY - r.top;
+  const hit = hitTest(cx, cy);
+  draggingWord = null;
+  draggingCanvas = false;
+  wrap.classList.remove('dragging');
+  if (hit) {
+    selectWord(hit);
+  } else {
+    deselect();
+  }
 });
 
 canvas.addEventListener('mouseleave', () => {
