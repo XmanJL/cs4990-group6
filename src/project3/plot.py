@@ -104,6 +104,97 @@ def plot_parallel_coordinates(df):
 
 	plt.show()
 
+def plot_stacked_bar(df):
+	import os
+	import numpy as np
+	import matplotlib.pyplot as plt
+
+	RACE_LABELS = {
+		1: "White",
+		2: "Black",
+		4: "Asian",
+	}
+	AGE_GROUPS = ["POP_0_19", "POP_20_39", "POP_40_59", "POP_60_79", "POP_80_100"]
+	AGE_LABELS = {
+		"POP_0_19": "0-19",
+		"POP_20_39": "20-39",
+		"POP_40_59": "40-59",
+		"POP_60_79": "60-79",
+		"POP_80_100": "80-100",
+	}
+
+	# Generate a color for each (race, age group) combination
+	import itertools
+	import matplotlib.colors as mcolors
+	color_list = list(mcolors.TABLEAU_COLORS.values()) + list(mcolors.CSS4_COLORS.values())
+	color_iter = itertools.cycle(color_list)
+	races = ["White", "Black", "Asian"]
+	color_map = {}
+	for race in races:
+		for age in AGE_GROUPS:
+			color_map[(race, age)] = next(color_iter)
+
+	plot_df = df.copy()
+	plot_df["RACE"] = plot_df["RACE"].map(RACE_LABELS)
+	plot_df = plot_df.dropna(subset=["RACE"])
+
+	# reduce years for readability
+	years_to_plot = [2020, 2030, 2040, 2050, 2060]
+	plot_df = plot_df[plot_df["YEAR"].isin(years_to_plot)]
+
+	races = plot_df["RACE"].unique()
+	x = np.arange(len(years_to_plot))
+	bar_width = 0.25
+
+	plt.figure(figsize=(12, 7))
+
+	legend_handles = []
+	for i, race in enumerate(races):
+		race_df = plot_df[plot_df["RACE"] == race].sort_values("YEAR")
+		x_pos = x + i * bar_width
+		bottoms = np.zeros(len(years_to_plot))
+		for age in AGE_GROUPS:
+			values = race_df[age].values
+			color = color_map[(race, age)]
+			label = f"{race} {AGE_LABELS[age]}"
+			bar = plt.bar(x_pos, values, width=bar_width, bottom=bottoms, color=color, label=label)
+			# Only add one handle per label
+			legend_handles.append(bar[0])
+			bottoms += values
+
+	plt.xlabel("Year")
+	plt.ylabel("Population")
+	plt.title("Stacked Bar Chart of Population by Age Group and Race")
+
+	plt.xticks(x + bar_width, years_to_plot)
+
+	import matplotlib.patches as mpatches
+
+	legend_patches = []
+
+	for race in ["White", "Black", "Asian"]:
+		for age in AGE_GROUPS:
+			label = f"{race} {AGE_LABELS[age]}"
+			color = color_map[(race, age)]
+			legend_patches.append(
+				mpatches.Patch(color=color, label=label)
+			)
+
+	plt.legend(
+		handles=legend_patches,
+		bbox_to_anchor=(1.05, 1),
+		loc='upper left',
+		title="Race + Age Group"
+	)
+
+	plt.tight_layout()
+
+	output_dir = "../../results/project3"
+	os.makedirs(output_dir, exist_ok=True)
+	plt.savefig(f"{output_dir}/high_imm_pop_stacked_bar.png", dpi=150, bbox_inches="tight")
+
+	plt.show()
+
 # testing purposes
 if __name__ == "__main__":
 	processed_df = preprocess("./high_imm_pop.csv")

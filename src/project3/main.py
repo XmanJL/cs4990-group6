@@ -1,6 +1,6 @@
 # run the main pipeline of the program
 from preprocess import preprocess
-from plot import plot_parallel_coordinates
+from plot import plot_parallel_coordinates, plot_stacked_bar
 
 # main pipeline
 if __name__ == "__main__":
@@ -10,3 +10,6 @@ if __name__ == "__main__":
 
     # plot the parallel coordinates
     plot_parallel_coordinates(processed_df)
+
+    # plot stacked bar charts
+    plot_stacked_bar(processed_df)
