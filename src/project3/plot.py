@@ -164,7 +164,7 @@ def plot_stacked_bar(df):
 
 	plt.xlabel("Year")
 	plt.ylabel("Population")
-	plt.title("Stacked Bar Chart of Population by Age Group and Race")
+	plt.title("Stacked Bar Chart of Population Projections by Age Group and Race")
 
 	plt.xticks(x + bar_width, years_to_plot)
 
