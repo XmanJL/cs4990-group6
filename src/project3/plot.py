@@ -123,16 +123,13 @@ def plot_stacked_bar(df):
 		"POP_80_100": "80-100",
 	}
 
-	# Generate a color for each (race, age group) combination
-	import itertools
-	import matplotlib.colors as mcolors
-	color_list = list(mcolors.TABLEAU_COLORS.values()) + list(mcolors.CSS4_COLORS.values())
-	color_iter = itertools.cycle(color_list)
-	races = ["White", "Black", "Asian"]
-	color_map = {}
-	for race in races:
-		for age in AGE_GROUPS:
-			color_map[(race, age)] = next(color_iter)
+	AGE_COLORS = {
+		"POP_0_19": "#1f77b4",   # 0-19
+		"POP_20_39": "#ff7f0e",  # 20-39
+		"POP_40_59": "#2ca02c",  # 40-59
+		"POP_60_79": "#d62728",  # 60-79
+		"POP_80_100": "#9467bd", # 80-100
+	}
 
 	plot_df = df.copy()
 	plot_df["RACE"] = plot_df["RACE"].map(RACE_LABELS)
@@ -148,43 +145,56 @@ def plot_stacked_bar(df):
 
 	plt.figure(figsize=(12, 7))
 
-	legend_handles = []
+	ax = plt.gca()
+	bar_gap = 0.05
+	n_races = len(races)
+	total_bar_width = n_races * bar_width + (n_races - 1) * bar_gap * bar_width
 	for i, race in enumerate(races):
 		race_df = plot_df[plot_df["RACE"] == race].sort_values("YEAR")
-		x_pos = x + i * bar_width
+		x_pos = x - (total_bar_width / 2) + (i * (bar_width + bar_gap * bar_width)) + (total_bar_width / 2 - (n_races * bar_width) / 2)
 		bottoms = np.zeros(len(years_to_plot))
-		for age in AGE_GROUPS:
+		for j, age in enumerate(AGE_GROUPS):
 			values = race_df[age].values
-			color = color_map[(race, age)]
-			label = f"{race} {AGE_LABELS[age]}"
-			bar = plt.bar(x_pos, values, width=bar_width, bottom=bottoms, color=color, label=label)
-			# Only add one handle per label
-			legend_handles.append(bar[0])
+			color = AGE_COLORS[age]
+			bar = plt.bar(x_pos, values, width=bar_width, bottom=bottoms, color=color)
 			bottoms += values
+		for k, xpos in enumerate(x_pos):
+			total_height = sum([race_df[age].values[k] for age in AGE_GROUPS])
+			plt.text(xpos, total_height + max(ax.get_yticks())*0.01, race, ha='center', va='bottom', fontsize=11)
 
 	plt.xlabel("Year")
-	plt.ylabel("Population")
+	plt.ylabel("Population (millions)")
 	plt.title("Stacked Bar Chart of Population Projections by Age Group and Race")
 
-	plt.xticks(x + bar_width, years_to_plot)
+	try:
+		black_idx = list(races).index('Black')
+	except ValueError:
+		black_idx = 0
+	bar_gap = 0.05
+	n_races = len(races)
+	total_bar_width = n_races * bar_width + (n_races - 1) * bar_gap * bar_width
+	black_x = x - (total_bar_width / 2) + (black_idx * (bar_width + bar_gap * bar_width)) + (total_bar_width / 2 - (n_races * bar_width) / 2)
+	plt.xticks(black_x, years_to_plot)
+
+	# set y-axis to display in millions using a formatter
+	from matplotlib.ticker import FuncFormatter
+	ax = plt.gca()
+	def millions(x, pos):
+		return f"{int(x/1e6)}" if x != 0 else "0"
+	ax.yaxis.set_major_formatter(FuncFormatter(millions))
 
 	import matplotlib.patches as mpatches
 
-	legend_patches = []
-
-	for race in ["White", "Black", "Asian"]:
-		for age in AGE_GROUPS:
-			label = f"{race} {AGE_LABELS[age]}"
-			color = color_map[(race, age)]
-			legend_patches.append(
-				mpatches.Patch(color=color, label=label)
-			)
+	legend_patches = [
+		mpatches.Patch(color=AGE_COLORS[age], label=AGE_LABELS[age])
+		for age in AGE_GROUPS
+	]
 
 	plt.legend(
 		handles=legend_patches,
 		bbox_to_anchor=(1.05, 1),
 		loc='upper left',
-		title="Race + Age Group"
+		title="Age Group"
 	)
 
 	plt.tight_layout()
